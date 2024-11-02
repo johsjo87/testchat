@@ -25,7 +25,7 @@ def start_server():
         server_sock.bind((HOST,PORT))
         server_sock.listen(2)
         print(f"serven körs på {HOST}: {PORT}")
-        print("Väntar på att 2 klienter ska ansluta för att kunna chatta")
+        print("Väntar på att 2 klienter ska ansluta för att kunna chatta med varandra!")
     
         client1_sock, addr1 = server_sock.accept()
         print(f"klient 1 är ansluten till {addr1}")
