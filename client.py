@@ -12,7 +12,7 @@ def receve_message(sock):
                 print(message)
         
         except ConnectionResetError:
-            print("Anslutning förlorad, tryck på enter för att avsluta chatten! ")
+            print("Anslutning förlorad, tryck på enter för att avsluta chatten! eller häng kvar ")
             break
         
 
